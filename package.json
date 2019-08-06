@@ -1,8 +1,9 @@
 {
-  "name": "react-boilerplate",
+  "name": "tobalie_admin",
   "version": "0.1.0",
-  "description": "react-boilerplate",
-  "author": "MoRain666",
+  "description": "Tobalie admin",
+  "author": "Tobalie",
+  "license": "MIT",
   "scripts": {
     "build": "yarn run clean-dist && webpack -p --config=configs/webpack/prod.js",
     "clean-dist": "rimraf dist/*",
@@ -16,11 +17,12 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
+    "@hot-loader/react-dom": "^16.8.6",
     "@types/jest": "^24.0.16",
     "@types/react": "^16.8.24",
     "@types/react-dom": "^16.8.5",
+    "@types/react-router-dom": "^4.3.4",
     "awesome-typescript-loader": "^5.2.1",
-    "@hot-loader/react-dom": "^16.8.6",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.1.0",
     "file-loader": "^4.1.0",
@@ -28,8 +30,7 @@
     "image-webpack-loader": "^5.0.0",
     "jest": "^24.8.0",
     "node-sass": "^4.12.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "tslint-microsoft-contrib": "^6.2.0",
     "react-hot-loader": "^4.12.10",
     "rimraf": "^2.6.3",
     "sass-loader": "^7.1.0",
@@ -43,5 +44,9 @@
     "webpack-dev-server": "^3.7.2",
     "webpack-merge": "^4.2.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1"
+  }
 }

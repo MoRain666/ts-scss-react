@@ -1,11 +1,32 @@
 {
-    "defaultSeverity": "error",
-    "extends": [
-        "tslint:recommended"
-    ],
-    "jsRules": {},
-    "rules": {
-        "no-var-requires": false
-    },
-    "rulesDirectory": []
+  "defaultSeverity": "error",
+  "extends": ["tslint-microsoft-contrib/latest"],
+  "jsRules": {},
+  "rulesDirectory": ["node_modules/tslint-microsoft-contrib"],
+  "rules": {
+    "no-var-requires": false,
+    "semicolon": true,
+    "newline-before-return": true,
+    "triple-equals": true,
+    "quotemark": [true, "single"],
+    "no-console": true,
+    "interface-name": true,
+    "prefer-const": true,
+    "no-return-await": true,
+    "no-duplicate-imports": true,
+    "no-any": true,
+    "no-boolean-literal-compare": true,
+    "no-empty": true,
+    "no-empty-interface": true,
+    "no-magic-numbers": true,
+    "no-default-export": true,
+    "no-shadowed-variable": true,
+    "promise-function-async": true,
+    "no-relative-imports": false,
+    "array-type": true,
+    "arrow-return-shorthand": true,
+    "only-arrow-functions": true,
+    "class-name": true,
+    "no-unnecessary-initializer": true
+  }
 }
