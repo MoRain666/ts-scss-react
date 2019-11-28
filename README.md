@@ -1,4 +1,4 @@
-# Tobalie admin
+# Template
 
 ## Installation
 1. Clone/download repo
